@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+}
+
+.background {
+  background: url("../images/trivia-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.bg-light {
+  opacity: 0.9;
+}
